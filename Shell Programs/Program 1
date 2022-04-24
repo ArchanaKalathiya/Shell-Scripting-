@@ -1,0 +1,5 @@
+# Simple basci commands
+touch A1
+
+vi A2.sh
+bash A2.sh
