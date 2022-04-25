@@ -1,0 +1,9 @@
+# Local Variable and Global variable 
+$ city = Jaipur 
+$ echo "$(city)"
+$ sh
+$ echo "$(city)"
+vi S1.sh
+vi S3.sh
+bash S1.sh
+bash S3.sh
