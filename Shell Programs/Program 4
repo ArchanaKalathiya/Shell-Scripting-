@@ -1,0 +1,6 @@
+pwd
+ls
+touch A4
+touch A5
+cat > A4
+cp A4 A5
