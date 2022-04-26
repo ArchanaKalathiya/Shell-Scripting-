@@ -1,3 +1,6 @@
+touch A5.txt
+ls -l
+chmod u+x S9.sh
 #Check if file is readable or not 
 echo -n "Enter file : "
 read fn
