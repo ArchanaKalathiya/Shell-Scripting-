@@ -1,9 +1,9 @@
-#Check if file is writable or not 
-echo -n "Enter file : "
-read fn
-if [ -w "$fn" ];
+#Check if a person is eligible to vote or not 
+echo -n "Enter your age : "
+read age
+if [ $age -gt 18 ];
 then 
-echo "$fn is writable "
+echo "You are eligible to vote :)"
 else 
-echo "$fn is not writable"
+echo "You are not eligible to vote "
 fi
