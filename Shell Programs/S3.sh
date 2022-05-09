@@ -3,7 +3,7 @@
 n=1
 while [ $n -le 10 ]
 do
-	echo $ctr
-	num=`expr $ctr + 1`  #increment num by 1
+	echo $n
+	n=$(($n+1)) #increment num by 1
 done 
 
